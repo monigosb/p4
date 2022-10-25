@@ -1,0 +1,60 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@200;400&family=Bilbo&display=swap');
+    *{
+        padding: 0;
+        margin: 0;}
+
+    header, main, nav, footer{
+        padding: 0 14vw;}
+
+    h1, header{
+        font-family: 'Big Shoulders Stencil Display', cursive;}
+    
+    nav, h2, footer{
+        font-family: 'Bilbo', cursive;}
+
+    /*header*/
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:#79B4C1;
+        color: black;
+        height: 8vh}
+    
+    header p{
+        font-weight: 200;}
+    /*nav*/
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #ffffff;
+        color: rgb(255, 0, 0);
+        height: 25vh;}
+    /*main*/
+    main hgroup{
+        display: flex;
+        align-items: center;}
+    main h1{
+        font-size: 3em;
+        margin-top: 1cm;}
+    main h2{
+        font-size: 2.65em;}
+    main {
+        display: flex;
+        flex-direction: column;
+        background-color: #D14848;
+        color: black;
+        height: 57vh;
+        padding: 0 0 3cm 0;}
+    /*footer*/
+    footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color:#79B4C1;
+        color: black;
+        height: 22vh;
+        padding-top: 0,5em;}
+ 
